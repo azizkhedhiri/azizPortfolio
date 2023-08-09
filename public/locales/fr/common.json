@@ -1,0 +1,17 @@
+{
+    "intro": "Introduction",
+    "career": "Parcours",
+    "skills": "Compétences",
+    "portfolio": "Références",
+    "contact": "Contact",
+    "name": "Abdelaziz",
+    "surname": "Khedhiri",
+    "job": "Ingénieur en Informatique & Développeur Web",
+    "about": "Je suis un professionnel passionné du domaine de l'ingénierie informatique, doté d'une expertise solide en développement Java, React JS, Next js, Node JS et MongoDB. Mes compétences techniques avancées me permettent de concevoir et de mettre en œuvre des applications web innovantes. Toujours avide d'apprendre, j'ai travaillé sur des projets collaboratifs stimulants, développant ainsi ma capacité à résoudre les problèmes de manière créative. Mon désir constant d'évoluer et de contribuer à des projets ambitieux me motive à saisir chaque opportunité pour enrichir mes connaissances et relever de nouveaux défis dans le domaine de l'informatique.",
+    "education": "Éducation",
+    "experience": "Expérience",
+    "references": "Références",
+    "footer_phone": "+216 26885623",
+    "footer_mail": "azizkhedhiri1234@gmail.com",
+    "footer_copyright": "Propulsé par Abdelaziz Khedhiri"
+}
