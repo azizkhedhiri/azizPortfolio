@@ -58,8 +58,8 @@ export default function Career(props) {
                                         </div>
                                         <div className="education_content">
                                             <h3>{education.title[locale]}</h3>
+                                            {(education.start_date || education.end_date) && <p> {education.start_date} {!education.end_date ? "" : "-"} {education.end_date} </p>}
                                             {education.description && <p>{education.description[locale]}</p>}
-                                            {(education.start_date && education.end_date) && <p> {education.start_date} - {education.end_date} </p>}
                                         </div>
                                     </div>
                                 ))
@@ -75,6 +75,7 @@ export default function Career(props) {
                                         </div>
                                         <div className="experience_content">
                                             <h3>{locale && experience.title[locale]}</h3>
+                                            {(experience.start_date || experience.end_date) && <p> {experience.start_date} - {experience.end_date} </p>}
                                             <p>{locale && experience.description[locale]}</p>
                                         </div>
                                     </div>
