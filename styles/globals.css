@@ -385,6 +385,12 @@ a {
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 550px) {
+  .skill img{
+    width: 95%;
+    height: 100%;
+  }
+}
 
 .projects_container {
   padding: 40px 5%;
