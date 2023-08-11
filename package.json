@@ -13,7 +13,6 @@
     "@emotion/styled": "^11.10.4",
     "@mui/icons-material": "^5.10.6",
     "@mui/material": "^5.10.6",
-    "@sanity/client": "^3.4.1",
     "aos": "^2.3.4",
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.13",
