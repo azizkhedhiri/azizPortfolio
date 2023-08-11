@@ -305,15 +305,25 @@ a {
   color: #000;
   margin: 0 auto 40px;
 }
+.competition_container {
+  width: 45%;
+}
 
-.education_item, .experience_item {
+.competition_container>h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+  margin: 0 auto 40px;
+}
+
+.education_item, .experience_item, .competition_item {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 25px 0;
 }
 
-.education_image, .experience_image {
+.education_image, .experience_image, .competition_image {
   position: relative;
   width: 50px;
   height: 50px;
@@ -330,18 +340,18 @@ a {
   object-fit: contain;
 }
 
-.education_content, .experience_content {
+.education_content, .experience_content, .competition_content {
   width: calc(100% - 70px);
 }
 
-.education_content>h3, .experience_content>h3 {
+.education_content>h3, .experience_content>h3, .competition_content>h3 {
   font-size: 1.2rem;
   font-weight: bold;
   color: #000;
   margin: 0;
 }
 
-.education_content>p, .experience_content>p {
+.education_content>p, .experience_content, .competition_content>p {
   font-size: 0.9rem;
   color: #444;
   margin: 0;
@@ -473,6 +483,9 @@ a {
     width: 100%;
   }
   .experience_container {
+    width: 100%;
+  }
+  .competition_container {
     width: 100%;
   }
   .project {

@@ -11,6 +11,7 @@ export default {
                 list: [
                     { title: 'Education', value: 'education' },
                     { title: 'Experience', value: 'experience' },
+                    { title: 'Competiton', value: 'competition' },
                 ],
                 layout: 'radio',
             },
