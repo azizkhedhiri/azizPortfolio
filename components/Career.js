@@ -28,7 +28,6 @@ export default function Career(props) {
           }
         }
         fetchData();
-        console.log(state)
     }, []);
 
     useEffect(() => {
