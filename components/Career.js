@@ -44,6 +44,7 @@ export default function Career(props) {
             setCompetitions([])
         }
     }, [career])
+
     return (
         <section id="career" className="career_container">
             {
