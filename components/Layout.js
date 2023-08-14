@@ -76,7 +76,7 @@ export default function Layout({ title, tags, description, children }) {
             <meta name="keywords" content="web developer, software developer, fullstack developer, developer, fullstack, Html, css, Javascript, React, ReactJs, NextJs, Vue, VueJs, Node, NodeJs, php, Twig, sass, Tailwindcss, Web Development, Développement web, Web Application, Mobile Application, Website, Sousse, Tunisia," />
             <meta property="og:title" content="Abdelaziz Khedhiri - Computer Engineer & FullStack Web Developer" />
             <meta property="og:description" content="Computer Engineer & FullStack Web Developer" />
-            <link rel="icon" href={"/aziz-bg.jpg"} />
+            <link rel="icon" href={"/aziz-link.png"} />
             <title>Abdelaziz Khedhiri</title>
             {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
            
