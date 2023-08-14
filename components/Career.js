@@ -96,7 +96,7 @@ export default function Career(props) {
                                         <div className="competition_content">
                                             <h3>{locale && competition.title[locale]}</h3>
                                             {(competition.start_date || competition.end_date) && <p> {competition.start_date} - {competition.end_date} </p>}
-                                            <p>{locale && competition?.description[locale]}</p>
+                                            <p>{locale && competition.description[locale]&& competition.description[locale]}</p>
                                         </div>
                                     </div>
                                 ))
